@@ -40,3 +40,6 @@ for url, nombre_archivo in zip(urls, archivos):
     else:
         print(f'\n\tError al descargar el archivo. Código de respuesta: {response.status_code}')
     print(nombre_archivo)
+    
+# El dataset del IDH se obtiene de esta página, pero no encontré la url del csv
+# http://www.snim.rami.gob.mx/
